@@ -8,13 +8,23 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.sound.min.js"></script>
     <script src="p5.play.js"></script>
 
-    <script src="https://www.gstatic.com/firebasejs/6.3.4/firebase-app.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/6.3.0/firebase-database.js"></script>
-
+        <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/7.23.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.23.0/firebase-database.js"></script>
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+         https://firebase.google.com/docs/web/setup#available-libraries -->
 
     <script>
       // Your web app's Firebase configuration
-      //Add here
+      var firebaseConfig = {
+        apiKey: "AIzaSyAC5y-FC3e6IoqSi0-IvLt4R4DVXGg_bE0",
+        authDomain: "car-race---reena.firebaseapp.com",
+        databaseURL: "https://car-race---reena.firebaseio.com",
+        projectId: "car-race---reena",
+        storageBucket: "car-race---reena.appspot.com",
+        messagingSenderId: "1023097379462",
+        appId: "1:1023097379462:web:fc23b55f1d15a0bcb48f07"
+      };
       // Initialize Firebase
       firebase.initializeApp(firebaseConfig);
     </script>
